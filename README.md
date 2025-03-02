@@ -1,16 +1,48 @@
-# news_app
+📰 News Aggregator App
 
-A new Flutter project.
+A Flutter-powered news app that fetches and displays news articles, supports category filtering, search functionality, and allows users to save their favorite articles locally.
 
-## Getting Started
+📌 Features
+✅ Fetch real-time news from an API
+✅ Category-based filtering (Technology, Business, Sports, etc.)
+✅ Search functionality
+✅ Bookmark articles (saved locally using shared preferences)
+✅ User-friendly and responsive UI (built with GetX)
 
-This project is a starting point for a Flutter application.
+🚀 Screenshots
+Home Screen	Categories	Search	Favorites
 
-A few resources to get you started if this is your first Flutter project:
+📦 Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Clone the repository:
+git clone https://github.com/your-username/news-aggregator-app.git
+cd news-aggregator-app
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Install dependencies:
+
+flutter pub get
+Run the app:
+flutter run
+
+🔧 Tech Stack
+Frontend: Flutter (Dart) with GetX for state management
+Backend: Node.js (Express)
+Database: PostgreSQL
+
+📜 API Setup
+
+Clone the backend repo (if applicable)
+git clone https://github.com/your-username/news-api.git
+cd news-api
+
+Install dependencies and start the server:
+npm install
+node server.js
+
+👥 Contributors
+Alisha Muskaan (Flutter Developer)
+
+📧 Contact
+If you have any questions, feel free to reach out:
+📩 Email: alishamuskan195@gmail.com
+🐦 Twitter: @alisha195
